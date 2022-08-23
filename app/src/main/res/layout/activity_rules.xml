@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/back5"
+    android:layout_height="match_parent"
+    tools:context=".white.Rules">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fonts"
+        android:gravity="center"
+        android:shadowColor="@color/black"
+        android:shadowRadius="12"
+        android:text="To start the game, press the start button. In the game you can test your reaction to strength.
+Every time when the background matches one of the pictures, you have to click on it"
+        android:textColor="@color/white"
+        android:textSize="44dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375" />
+
+    <Button
+        android:id="@+id/startRul"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/black"
+        android:shadowColor="@color/white"
+        android:shadowRadius="10"
+        android:fontFamily="@font/fonts"
+        android:text="Start"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
